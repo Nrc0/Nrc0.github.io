@@ -167,7 +167,7 @@ section:last-child {
     }
 }
 
-@media all and (max-width: 601px) {
+@media all and (max-width: 870px) {
     #cv {
         width: 95%;
         margin: 10px auto;
@@ -297,6 +297,7 @@ section:last-child {
 }
 
 .instaFade {
+    width: 90%;
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: ease-in;
