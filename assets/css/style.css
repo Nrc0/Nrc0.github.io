@@ -1,0 +1,158 @@
+.blog-footer {
+    width: 100%;
+    color: #999;
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .035rem solid #e5e5e5;
+}
+
+.equal-height-cards {
+  .cell {
+    display: flex;
+    align-items: stretch;
+  }
+}
+
+.tab{
+	margin-left: 20px; 
+}
+.tab2{
+	margin-left: 40px; 
+}
+
+p#smallpara{
+	line-height: 0.7em;
+}
+
+#prof_pic{
+	align-self: center;
+	border-radius: 15%;
+	padding: 3%;
+	display: block;
+	max-height:50%;
+	max-width:50%;
+	width: 51%;
+	height: 51%;
+	margin-left: 20px;
+}
+
+
+@media all and (max-width:800px) /*800px for tablets and phones.*/
+{
+    .respon{
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+    #prof_pic{
+		max-height:40%;
+		max-width:40%;
+		width: 41%;
+		height: 41%;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+/*//////////////////////////////////////////////////////*/
+/*Timeline*/
+	.info_timeline ul li {
+		list-style: none;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.info_timeline ul {
+		padding: 0px;
+	}
+
+	.info_timeline ul li .dot {
+		width: 2px; height: 100%;
+		position: absolute;
+		left: 4px; top: 0;
+		background-color: #666;
+	}
+	.info_timeline ul li .dot b {
+		border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		width: 13px; height: 13px;
+		position: absolute;
+		left: -6px;
+		top: 4px;
+		background-color: #333;
+		border: 2px #fff solid;
+	}
+	.info_timeline ul li.top .dot {
+		top: 10px;
+	}
+	.info_timeline ul li.top .dot b {
+		top: -6px;
+	}
+	.info_timeline ul li.bottom .dot {
+		height: 10px;
+	}
+	.info_timeline ul li.top .dot b {
+		top: -6px;
+	}
+	.info_timeline ul li .con {
+		padding-left: 30px;
+	}
+	.info_timeline ul li .con p.desc,.info_timeline ul.focus li.curr .con p.desc {
+		color: #999;
+	}
+	.info_timeline ul.focus li.curr .dot b {
+		background-color: #109d59;
+	}
+	.info_timeline ul.focus li .dot,.info_timeline ul.focus li .dot b {
+		background-color: #bbb;
+	}
+	.info_timeline ul.focus li .con h3,.info_timeline ul.focus li .con p,.info_timeline ul.focus li .con p.desc {
+		color: #bbb;
+	}
+
+	.info_timeline dl dt {
+		float: left;
+		line-height: 25px;
+		color: #999;
+	}
+	.info_timeline dl dt h6 {
+		font-size: 16px;
+		color: #595959;
+		font-style: italic;
+	}
+	.info_timeline h2 {
+		font-size: 20px;
+		color: #333;
+		padding-top: 10px;
+		padding-left: 30%;
+	}
+	.info_timeline dl dt em {
+		color: #ccc;
+		margin-left: 3px;
+	}
+	.info_timeline dl dd {
+		float: right;
+		line-height: 25px;
+	}
+	.info_timeline dl dd b,.info_timeline dl dd em {
+		border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		float: left; width: 10px;
+		height: 10px;
+		margin: 7px 5px 0 0;
+	}
+	.info_timeline dl dd b {
+		background-color: #666;
+	}
+	.info_timeline dl dd em {
+		background-color: #ddd;
+	}
+/*//////////////////////////////////////////////////////*/
